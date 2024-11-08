@@ -1,4 +1,7 @@
-package endtermSDP.Internal.Factory;
+package Internal.Factory;
+
+import Internal.Objects.Dish;
+import Internal.Objects.DishCategory;
 
 public class DessertFactory extends DishFactory {
     @Override
@@ -6,3 +9,4 @@ public class DessertFactory extends DishFactory {
         return new Dish(name, price, DishCategory.DESSERT);
     }
 }
+
